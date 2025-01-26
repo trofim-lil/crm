@@ -1,0 +1,79 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@media (max-width: 992px) {
+    .actions {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        gap: 5px;
+    }
+}
+
+@media (max-width: 760px) {
+    .header__input {
+        width: 400px;
+    }
+}
+
+@media (max-width: 576px) {
+    .header {
+        margin-bottom: 30px;
+    }
+
+    .header__right {
+        display: none;
+    }
+
+    .header__left {
+        margin: 0 auto;
+    }
+
+    .header__left img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .main__title {
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+
+    main .container {
+        overflow-x: hidden;
+    }
+
+    .main__table {
+        display: table;
+        width: 100%;
+    }
+
+    .main__table--wrapper {
+        overflow-x: scroll;
+    }
+
+    .main__table td {
+        padding: 10px 5px;
+    }
+
+    .main__table td:first-child {
+        padding-left: 10px;
+    }
+
+    .main__table td:last-child {
+        padding-right: 10px;
+    }
+
+    .modal__box {
+        width: 300px;
+        max-height: 500px;
+    }
+}
