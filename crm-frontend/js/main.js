@@ -1,7 +1,7 @@
 import Client from './client.js'
 
 // сервер
-const API_URL = 'http://localhost:3000/api/clients'
+const API_URL = 'https://crm-onz3.onrender.com/api/clients'
 
 tippy('[data-tippy-content]');
 
