@@ -747,7 +747,7 @@ function modal(open, close){
     modalTitle.classList.add('modal__title')
     modalCloseBtn.classList.add('modal__close-btn', 'btn-reset')
     modalCloseImg.classList.add('modal__close-img')
-    modalCloseImg.src = 'img/close.svg'
+    modalCloseImg.src = 'crm-frontend/img/close.svg'
 
     modalCloseBtn.append(modalCloseImg)
     modalTop.append(modalTitle, modalCloseBtn)
